@@ -57,4 +57,15 @@ public class Aluno {
     public List<Telefone> getTelefones() {
         return this.telefones;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "cpf=" + cpf +
+                ", name='" + name + '\'' +
+                ", email=" + email +
+                ", telefone=" + telefone +
+                ", telefones=" + telefones +
+                '}';
+    }
 }
